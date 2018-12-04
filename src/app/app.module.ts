@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ToolbarlayoutComponent } from './toolbarlayout/toolbarlayout.component';
 import { BlanklayoutComponent } from './blanklayout/blanklayout.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BlanklayoutComponent } from './blanklayout/blanklayout.component';
     HomeComponent,
     PageNotFoundComponent,
     ToolbarlayoutComponent,
-    BlanklayoutComponent
+    BlanklayoutComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
