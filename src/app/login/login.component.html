@@ -1,13 +1,22 @@
 <form>
-  <mat-form-field class="example-full-width">
-    <input matInput placeholder="User name">
-  </mat-form-field>
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>logo</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="User name">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Password" type="password">
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" routerLink="/pages/home">login</button>
+  </mat-card-actions>
+</mat-card>
 
-  <mat-form-field class="example-full-width">
-    <input matInput placeholder="Password" type="password">
-  </mat-form-field>
-
-  <button mat-raised-button color="primary" routerLink="/pages/home">login</button>
 </form>
 
 <router-outlet></router-outlet>
