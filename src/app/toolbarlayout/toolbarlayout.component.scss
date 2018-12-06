@@ -1,11 +1,24 @@
 .toolbar-layout {
-    background-color: azure;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar-layout>* {
+  flex: auto;
+}
+.toolbar-layout .mat-toolbar {
+  flex: none;
+}
+
+.mat-drawer {
+  width: 250px;
 }
 
 .example-icon {
-    padding: 0 14px;
-  }
-  
-  .example-spacer {
-    flex: 1 1 auto;
-  }
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
