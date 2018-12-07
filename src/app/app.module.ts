@@ -12,6 +12,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ToolbarlayoutComponent } from './toolbarlayout/toolbarlayout.component';
 import { BlanklayoutComponent } from './blanklayout/blanklayout.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     PageNotFoundComponent,
     ToolbarlayoutComponent,
     BlanklayoutComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    DashboardComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,

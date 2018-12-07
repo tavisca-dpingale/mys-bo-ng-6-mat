@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ToolbarlayoutComponent } from './toolbarlayout/toolbarlayout.component';
 import { BlanklayoutComponent } from './blanklayout/blanklayout.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 const routes: Routes = [
   {
@@ -40,6 +42,16 @@ const routes: Routes = [
       {
         path: 'home',
         component: HomeComponent
+      },
+      {
+        path: 'dashboard',
+        component: DashboardComponent,
+        children: [ 
+          {
+            path: 'userprofile',
+            component: UserprofileComponent
+          }
+        ]
       }
     ]
   }
