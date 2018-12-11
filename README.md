@@ -50,3 +50,7 @@ https://www.youtube.com/watch?v=-lqCunfwsac
 ## ANGULAR ROUTING REF
 
 https://www.youtube.com/watch?v=Rhc3sOEhP4A
+
+## ANGULAR DIRECTIVES
+
+http://realityonweb.com/angularjs-conditional-display-using-ng-show-ng-hide-ng-if-ng-include-ng-switch/

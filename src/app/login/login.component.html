@@ -16,16 +16,14 @@
         <mat-label>Password</mat-label>
       <input matInput placeholder="***" type="password">
     </mat-form-field>
-
-    <router-outlet></router-outlet>
-    
   </mat-card-content>
   <mat-card-actions>
-    <a href="#" routerLink="/login/forgot-password">Forgot password?</a>
+    <a href="#" routerLink="/forgot-password">Forgot password?</a>
     <button mat-raised-button color="primary" routerLink="/pages/home">login</button>
   </mat-card-actions>
 </mat-card>
 
+<router-outlet></router-outlet>
 </form>
 
 <small>Sitename &copy; 2018</small>

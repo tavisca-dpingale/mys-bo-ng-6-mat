@@ -21,13 +21,11 @@ const routes: Routes = [
     children: [
       {
         path: 'login',
-        component: LoginComponent,
-        children: [ 
-          {
-            path: 'forgot-password',
-            component: ForgotPasswordComponent
-          }
-        ]
+        component: LoginComponent
+      },
+      {
+        path: 'forgot-password',
+        component: ForgotPasswordComponent
       },
       {
         path: 'error',
@@ -45,13 +43,11 @@ const routes: Routes = [
       },
       {
         path: 'dashboard',
-        component: DashboardComponent,
-        children: [ 
-          {
-            path: 'userprofile',
-            component: UserprofileComponent
-          }
-        ]
+        component: DashboardComponent
+      },
+      {
+        path: 'userprofile',
+        component: UserprofileComponent
       }
     ]
   }
