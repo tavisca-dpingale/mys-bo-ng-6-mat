@@ -1,0 +1,33 @@
+[{
+    "ID": "a-kiran-0",
+    "Category": "Anak",
+    "Name": "Kiran",
+    "Taal": "kerva 120",
+    "Nickname": "Prarambik",
+    "HasAudio": "yes",
+    "AudioPath": "http://dfrontui.in/ghoshsaraav/sounds/kiran/anak-kiran-prarambhik.mp3",
+    "HasImage": "yes",
+    "ImagePath": "http://dfrontui.in/ghoshsaraav/images/anak/anak-kiran-prarambhik.jpg"
+},
+{
+    "ID": "a-kiran-1",
+    "Name": "Kiran",
+    "Type": "Anak",
+    "Taal": "kerva 120",
+    "Nickname": "Charan 1",
+    "HasAudio": "yes",
+    "AudioPath": "http://dfrontui.in/ghoshsaraav/sounds/kiran/anak-kiran-charan-1.mp3",
+    "HasImage": "yes",
+    "ImagePath": "http://dfrontui.in/ghoshsaraav/images/anak/anak-kiran-charan-1.jpg"
+},
+{
+    "ID": "a-kiran-2",
+    "Name": "Kiran",
+    "Type": "Anak",
+    "Taal": "kerva 120",
+    "Nickname": "Charan 2",
+    "HasAudio": "yes",
+    "AudioPath": "http://dfrontui.in/ghoshsaraav/sounds/kiran/anak-kiran-charan-2.mp3",
+    "HasImage": "yes",
+    "ImagePath": "http://dfrontui.in/ghoshsaraav/images/anak/anak-kiran-charan-2.jpg"
+}]

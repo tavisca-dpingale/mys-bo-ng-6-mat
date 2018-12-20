@@ -15,6 +15,11 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { AnakComponent } from './anak/anak.component';
+import { ShankhComponent } from './shankh/shankh.component';
+import { VanshiComponent } from './vanshi/vanshi.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,13 +30,17 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     BlanklayoutComponent,
     ForgotPasswordComponent,
     DashboardComponent,
-    UserprofileComponent
+    UserprofileComponent,
+    AnakComponent,
+    ShankhComponent,
+    VanshiComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

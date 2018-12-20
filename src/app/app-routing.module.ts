@@ -9,6 +9,10 @@ import { BlanklayoutComponent } from './blanklayout/blanklayout.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 
+import { AnakComponent } from './anak/anak.component';
+import { ShankhComponent } from './shankh/shankh.component';
+import { VanshiComponent } from './vanshi/vanshi.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -48,6 +52,18 @@ const routes: Routes = [
       {
         path: 'userprofile',
         component: UserprofileComponent
+      },
+      {
+        path: 'anak',
+        component: AnakComponent
+      },
+      {
+        path: 'shankh',
+        component: ShankhComponent
+      },
+      {
+        path: 'vanshi',
+        component: VanshiComponent
       }
     ]
   }
